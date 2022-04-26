@@ -1,17 +1,10 @@
 {
-  "name": "node-js-jwt-auth",
+  "name": "node",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "test": "node server.js"
   },
-  "keywords": [
-    "node.js",
-    "jwt",
-    "authentication",
-    "express",
-    "mysql"
-  ],
   "author": "Sourabh",
   "license": "ISC",
   "dependencies": {
