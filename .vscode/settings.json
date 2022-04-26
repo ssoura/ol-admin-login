@@ -1,0 +1,5 @@
+{
+    "editor.fontWeight": "normal",
+    "editor.formatOnSave": true,
+    "prettier.semi": false,
+}

@@ -1,9 +1,7 @@
 module.exports = (sequelize, Sequelize) => {
-  const Customer = sequelize.define("customer", {
-    // Attributes
+  const User = sequelize.define("users", {
     username: {
       type: Sequelize.STRING,
-      unique: true,
     },
     email: {
       type: Sequelize.STRING,
@@ -12,5 +10,5 @@ module.exports = (sequelize, Sequelize) => {
       type: Sequelize.STRING,
     },
   })
-  return Customer
+  return User
 }
